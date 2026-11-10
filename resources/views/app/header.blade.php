@@ -230,7 +230,7 @@
                                                 class="bg-white rounded-2xl p-4 flex gap-4 items-center shadow-sm border border-gray-100 parentItem">
                                                 <div
                                                     class="w-16 h-20 sm:w-20 sm:h-24 bg-gradient-to-br from-indigo-100 to-indigo-200 rounded-xl flex items-center justify-center text-2xl shrink-0">
-                                                    <img src="http://localhost/tababook/public/storage/productImgs/33ehHBcvUUKJ2SxeNjvT3syKHbn9WqEQRuDf216f.jpg"
+                                                    <img src="http://localhost/aidanshop/public/storage/productImgs/33ehHBcvUUKJ2SxeNjvT3syKHbn9WqEQRuDf216f.jpg"
                                                         class="size-full object-cover" alt="">
                                                 </div>
                                                 <div class="flex-1 min-w-0">

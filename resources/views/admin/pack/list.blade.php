@@ -164,7 +164,7 @@
                             <input type="checkbox" id="selectAllPacks" class="w-4 h-4 rounded border-slate-300 text-indigo-600 focus:ring-indigo-500 cursor-pointer">
                         </th>
                         <th class="py-3 px-4 font-medium">پک</th>
-                        <th class="py-3 px-4 font-medium">تعداد کتاب</th>
+                        <th class="py-3 px-4 font-medium">تعداد لوازم قنادی</th>
                         <th class="py-3 px-4 font-medium">قیمت</th>
                         <th class="py-3 px-4 font-medium">تخفیف</th>
                 

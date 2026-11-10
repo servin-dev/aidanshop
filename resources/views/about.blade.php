@@ -42,7 +42,7 @@
                     درباره ما
                 </h1>
                 {{-- <p class="mt-5 text-lg sm:text-xl font-medium leading-9 text-slate-700">
-                    ما اینجا هستیم تا کتاب، بخشی از زندگی شما باشد.
+                    ما اینجا هستیم تا لوازم قنادی، بخشی از زندگی شما باشد.
                 </p> --}}
                 <p class="mt-4 text-sm sm:text-base leading-8 text-slate-600 max-w-xl">
                    {{ $aboutUs->description }}
@@ -76,7 +76,7 @@
     {{-- <section class="py-16 sm:py-20">
         <div class="container-x">
             <div class="text-center mb-10">
-                <h2 class="line-title text-2xl sm:text-3xl font-extrabold text-brand">چرا کتاب‌یار؟</h2>
+                <h2 class="line-title text-2xl sm:text-3xl font-extrabold text-brand">چرا لوازم قنادی‌یار؟</h2>
                 <p class="mt-5 text-sm sm:text-base text-slate-500">ما فقط محصولنمی‌فروشیم؛ یک تجربه بهتر برای انتخاب و خرید می‌سازیم.</p>
             </div>
 
@@ -84,7 +84,7 @@
                 <article class="rounded-2xl bg-[#f5faf4] p-7 text-center hover:-translate-y-1 transition shadow-sm">
                     <div class="w-14 h-14 mx-auto rounded-2xl bg-[#e0f1df] grid place-items-center text-2xl">📚</div>
                     <h3 class="font-bold mt-5">تنوع بالا</h3>
-                    <p class="text-sm text-slate-500 leading-7 mt-3">از پرفروش‌ترین‌ها تا کتاب‌های تخصصی و جذاب.</p>
+                    <p class="text-sm text-slate-500 leading-7 mt-3">از پرفروش‌ترین‌ها تا لوازم قنادی‌های تخصصی و جذاب.</p>
                 </article>
                 <article class="rounded-2xl bg-[#f5faf4] p-7 text-center hover:-translate-y-1 transition shadow-sm">
                     <div class="w-14 h-14 mx-auto rounded-2xl bg-[#e0f1df] grid place-items-center text-2xl">🚚</div>
@@ -113,7 +113,7 @@
                     <span class="text-brand font-bold">داستان ما</span>
                     <h2 class="text-2xl sm:text-3xl font-extrabold mt-3">از یک علاقه کوچک تا یک دنیای بزرگ</h2>
                     <p class="mt-5 leading-8 text-sm sm:text-base text-slate-600">
-                        کتاب‌یار با یک هدف ساده شروع شد؛ اینکه پیدا کردن محصولمورد علاقه،
+                        لوازم قنادی‌یار با یک هدف ساده شروع شد؛ اینکه پیدا کردن محصولمورد علاقه،
                         به اندازه خواندن آن لذت‌بخش باشد. امروز با همین نگاه، سعی می‌کنیم
                         انتخاب‌های متنوع، اطلاعات کاربردی و خریدی آسان را کنار هم قرار دهیم.
                     </p>
@@ -144,7 +144,7 @@
                 <div class="text-center">
                     <div class="mx-auto w-16 h-16 rounded-full bg-softGreen grid place-items-center text-2xl">🌱</div>
                     <h3 class="font-bold mt-4">رشد</h3>
-                    <p class="text-sm text-slate-500 mt-2 leading-7">به سوی آینده‌ای بهتر با کتاب.</p>
+                    <p class="text-sm text-slate-500 mt-2 leading-7">به سوی آینده‌ای بهتر با لوازم قنادی.</p>
                 </div>
                 <div class="text-center">
                     <div class="mx-auto w-16 h-16 rounded-full bg-softGreen grid place-items-center text-2xl">🤝</div>
@@ -169,7 +169,7 @@
     <section class="pb-16 sm:pb-20">
         <div class="container-x">
             <div class="rounded-3xl bg-[#f8f3e9] p-7 sm:p-10 grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
-                <div><strong class="block text-2xl sm:text-3xl text-brand">+۵۰,۰۰۰</strong><span class="text-sm text-slate-500 mt-2 block">عنوان کتاب</span></div>
+                <div><strong class="block text-2xl sm:text-3xl text-brand">+۵۰,۰۰۰</strong><span class="text-sm text-slate-500 mt-2 block">عنوان لوازم قنادی</span></div>
                 <div><strong class="block text-2xl sm:text-3xl text-brand">+۱۰,۰۰۰</strong><span class="text-sm text-slate-500 mt-2 block">مشتری راضی</span></div>
                 <div><strong class="block text-2xl sm:text-3xl text-brand">۹۸٪</strong><span class="text-sm text-slate-500 mt-2 block">ارسال موفق</span></div>
                 <div><strong class="block text-2xl sm:text-3xl text-brand">۴.۸</strong><span class="text-sm text-slate-500 mt-2 block">رضایت مشتریان</span></div>
@@ -185,7 +185,7 @@
                 <h2 class="mt-4 text-2xl sm:text-3xl font-extrabold">محصولبعدی‌تان را پیدا کنید</h2>
                 <p class="mt-3 text-sm sm:text-base text-slate-600">یک محصولخوب شاید شروع یک مسیر تازه باشد.</p>
                 <div class="mt-7 flex flex-wrap justify-center gap-3">
-                    <a href="#" class="px-7 py-3 rounded-xl bg-brand text-white font-semibold hover:bg-brandDark transition">مشاهده کتاب‌ها</a>
+                    <a href="#" class="px-7 py-3 rounded-xl bg-brand text-white font-semibold hover:bg-brandDark transition">مشاهده لوازم قنادی‌ها</a>
                     <a href="mailto:info@ketabyar.ir" class="px-7 py-3 rounded-xl bg-white border border-slate-200 font-semibold hover:border-brand transition">ارتباط با ما</a>
                 </div>
             </div>
