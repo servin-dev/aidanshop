@@ -44,7 +44,7 @@
               </svg>
             </div>
             <div>
-              <h1 class="text-xl sm:text-2xl font-bold text-white">فروشگاه کتاب</h1>
+              <h1 class="text-xl sm:text-2xl font-bold text-white">فروشگاه لوازم قنادی</h1>
               <p class="text-indigo-100 text-sm mt-0.5">تکمیل اطلاعات ارسال</p>
             </div>
           </div>

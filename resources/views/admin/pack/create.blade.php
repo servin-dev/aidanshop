@@ -246,7 +246,7 @@
                             d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                     </svg>
                 </div>
-                <h1 class="text-xl md:text-2xl font-bold text-slate-800">ساخت پک کتاب</h1>
+                <h1 class="text-xl md:text-2xl font-bold text-slate-800">ساخت پک لوازم قنادی</h1>
             </div>
             <div class="flex items-center gap-3">
                 <span class="text-sm text-slate-500">تعداد انتخاب شده: <span id="selectedCount"
@@ -378,10 +378,10 @@
                     خلاصه انتخاب‌ها
                 </h3>
                 <div id="selectedItemsList" class="space-y-2 text-sm text-slate-600">
-                    <p class="text-slate-400 italic text-center py-4">هنوز کتابی انتخاب نشده است</p>
+                    <p class="text-slate-400 italic text-center py-4">هنوز لوازم قنادیی انتخاب نشده است</p>
                 </div>
                 <div class="mt-4 pt-4 border-t border-indigo-100 flex justify-between items-center">
-                    <span class="text-sm font-medium text-slate-700">مجموع قیمت کتاب‌ها:</span>
+                    <span class="text-sm font-medium text-slate-700">مجموع قیمت لوازم قنادی‌ها:</span>
                     <span id="totalPrice" class="font-bold text-indigo-700">۰ تومان</span>
                 </div>
             </div>
@@ -399,7 +399,7 @@
                         </svg>
                        انتخاب محصولات
                     </h2>
-                    <span class="text-xs text-slate-400">با کلیک روی کتاب‌ها، آن‌ها را به پک اضافه کنید</span>
+                    <span class="text-xs text-slate-400">با کلیک روی لوازم قنادی‌ها، آن‌ها را به پک اضافه کنید</span>
                 </div>
 
                 <select id="booksMultiSelect" class="w-full" name="product[]"
@@ -416,9 +416,9 @@
                 <div
                     class="mt-6 bg-slate-50 rounded-xl border border-slate-200 p-4 text-xs text-slate-500 leading-relaxed">
                     <p class="mb-1"><span class="font-bold text-slate-700">راهنما:</span> روی باکس بالا کلیک کنید تا
-                        لیست کتاب‌ها باز شود. می‌توانید جستجو کنید، همه را انتخاب کنید یا هر محصولرا به صورت جداگانه تیک
+                        لیست لوازم قنادی‌ها باز شود. می‌توانید جستجو کنید، همه را انتخاب کنید یا هر محصولرا به صورت جداگانه تیک
                         بزنید.</p>
-                    <p>کتاب‌های انتخاب شده در باکس نمایش داده می‌شوند و با کلیک روی ضربدر هر کدام، بدون باز کردن لیست،
+                    <p>لوازم قنادی‌های انتخاب شده در باکس نمایش داده می‌شوند و با کلیک روی ضربدر هر کدام، بدون باز کردن لیست،
                         حذف می‌شوند.</p>
                 </div>
 
@@ -1293,7 +1293,7 @@
         }
 
         /* =========================================================
-           راه‌اندازی MultiSelect برای کتاب‌ها
+           راه‌اندازی MultiSelect برای لوازم قنادی‌ها
            ========================================================= */
         const booksData = {
             @foreach ($products as $product)
@@ -1327,7 +1327,7 @@
 
             if (selected.length === 0) {
                 selectedItemsList.innerHTML =
-                    '<p class="text-slate-400 italic text-center py-4">هنوز کتابی انتخاب نشده است</p>';
+                    '<p class="text-slate-400 italic text-center py-4">هنوز لوازم قنادیی انتخاب نشده است</p>';
             } else {
                 selectedItemsList.innerHTML = selected.map(item => `
                     <div class="flex justify-between items-center py-1.5 border-b border-slate-100 last:border-0">

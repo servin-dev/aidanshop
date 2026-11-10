@@ -99,9 +99,9 @@
             <div class="flex flex-col my-12 items-center justify-center relative z-10 w-full">
                 <div class="w-full flex flex-row justify-center items-center animate-fadeIn">
                     <div class="text-center">
-                        <h2 class="text-center font-bold text-white text-5xl mb-2 drop-shadow-lg">TabaBook</h2>
+                        <h2 class="text-center font-bold text-white text-5xl mb-2 drop-shadow-lg">aidanshop</h2>
                         <div class="w-20 h-1 bg-white mx-auto rounded-full"></div>
-                        <p class="text-white/80 text-sm">فروشگاه کتاب</p>
+                        <p class="text-white/80 text-sm">فروشگاه لوازم قنادی</p>
                     </div>
                 </div>
             </div>
@@ -190,7 +190,7 @@
                                         لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از
                                         طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که
                                         لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود
-                                        ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده،
+                                        ابزارهای کاربردی می باشد، لوازم قنادیهای زیادی در شصت و سه درصد گذشته حال و آینده،
                                         شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای
                                         طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد،
                                         در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط

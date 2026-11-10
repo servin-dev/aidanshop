@@ -107,9 +107,9 @@
                 <div class="w-full flex flex-row justify-center items-center animate-fadeIn">
                     {{-- <img class="max-md:w-4/12 w-8/12" src="{{ asset('assets/img/e125edbd-f303-47f3-9dbc-af414f99ccb2.webp') }}" alt=""> --}}
                     <div class="text-center">
-                        <h2 class="text-center font-bold text-white text-5xl mb-2 drop-shadow-lg">TabaBook</h2>
+                        <h2 class="text-center font-bold text-white text-5xl mb-2 drop-shadow-lg">aidanshop</h2>
                         <div class="w-20 h-1 bg-white mx-auto rounded-full"></div>
-                        <p class="text-white/80 text-sm mt-2">فروشگاه کتاب</p>
+                        <p class="text-white/80 text-sm mt-2">فروشگاه لوازم قنادی</p>
                     </div>
                 </div>
             </div>

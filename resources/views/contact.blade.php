@@ -31,12 +31,12 @@
     <section class="bg-cream overflow-hidden">
         <div class="container-x grid lg:grid-cols-2 items-center gap-8 py-10 sm:py-14">
             <div class="order-2 lg:order-1">
-                <div class="flex items-center gap-3 mb-4"><span class="w-12 h-[3px] rounded bg-brand"></span><span class="text-brand font-bold">ارتباط با کتاب‌یار</span></div>
+                <div class="flex items-center gap-3 mb-4"><span class="w-12 h-[3px] rounded bg-brand"></span><span class="text-brand font-bold">ارتباط با لوازم قنادی‌یار</span></div>
                 <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-[1.5]">تماس با ما</h1>
                 <p class="text-base sm:text-lg font-medium mt-4 leading-8">ما همیشه آماده پاسخگویی به سوالات و نظرات شما هستیم.</p>
                 <p class="text-sm sm:text-base text-slate-600 leading-8 mt-3 max-w-xl">برای ارتباط با ما می‌توانید از طریق فرم زیر اطلاعات خود را ارسال کنید یا با یکی از راه‌های ارتباطی دیگر در تماس باشید.</p>
             </div>
-            <img src="{{asset('img/contact-hero.svg')}}" alt="کتاب‌ها و فضای مطالعه" class="order-1 lg:order-2 w-full rounded-3xl shadow-soft">
+            <img src="{{asset('img/contact-hero.svg')}}" alt="لوازم قنادی‌ها و فضای مطالعه" class="order-1 lg:order-2 w-full rounded-3xl shadow-soft">
         </div>
     </section>
 
@@ -87,7 +87,7 @@
                     <label class="sm:col-span-2 block">
                         <span class="text-sm font-medium">موضوع <b class="text-red-500">*</b></span>
                         <select required class="mt-2 w-full h-14 rounded-xl border border-slate-200 px-4 bg-white outline-none focus:border-brand focus:ring-2 focus:ring-green-100">
-                            <option value="">انتخاب کنید</option><option>پیگیری سفارش</option><option>مشاوره خرید کتاب</option><option>پیشنهاد و انتقاد</option><option>سایر</option>
+                            <option value="">انتخاب کنید</option><option>پیگیری سفارش</option><option>مشاوره خرید لوازم قنادی</option><option>پیشنهاد و انتقاد</option><option>سایر</option>
                         </select>
                     </label>
                     <label class="sm:col-span-2 block">
@@ -104,7 +104,7 @@
     <!-- Map -->
     <section class="pb-12 sm:pb-16">
         <div class="container-x grid lg:grid-cols-5 rounded-3xl overflow-hidden border border-green-100 shadow-soft">
-            <div class="lg:col-span-3 min-h-[300px]"><img src="{{asset('img/contact-map.svg')}}" class="w-full h-full object-cover" alt="نقشه موقعیت کتاب‌یار"></div>
+            <div class="lg:col-span-3 min-h-[300px]"><img src="{{asset('img/contact-map.svg')}}" class="w-full h-full object-cover" alt="نقشه موقعیت لوازم قنادی‌یار"></div>
             <div class="lg:col-span-2 bg-mint p-8 sm:p-12 flex flex-col justify-center">
                 <div class="w-14 h-14 rounded-full bg-white grid place-items-center text-2xl">⌖</div>
                 <h2 class="text-2xl font-extrabold text-green-800 mt-5">همیشه در دسترس شما هستیم</h2>

@@ -411,10 +411,10 @@
                     خلاصه انتخاب‌ها
                 </h3>
                 <div id="selectedItemsList" class="space-y-2 text-sm text-slate-600">
-                    <p class="text-slate-400 italic text-center py-4">هنوز کتابی انتخاب نشده است</p>
+                    <p class="text-slate-400 italic text-center py-4">هنوز لوازم قنادیی انتخاب نشده است</p>
                 </div>
                 <div class="mt-4 pt-4 border-t border-indigo-100 flex justify-between items-center">
-                    <span class="text-sm font-medium text-slate-700 in-fa">مجموع قیمت کتاب‌ها:</span>
+                    <span class="text-sm font-medium text-slate-700 in-fa">مجموع قیمت لوازم قنادی‌ها:</span>
                     <span id="totalPrice" class="font-bold text-indigo-700 in-fa">۰ تومان</span>
                 </div>
             </div>
@@ -432,7 +432,7 @@
                         </svg>
                        انتخاب محصولات
                     </h2>
-                    <span class="text-xs text-slate-400">با کلیک روی کتاب‌ها، آن‌ها را به پک اضافه کنید</span>
+                    <span class="text-xs text-slate-400">با کلیک روی لوازم قنادی‌ها، آن‌ها را به پک اضافه کنید</span>
                 </div>
 
                 <select id="booksMultiSelect" class="w-full" name="product[]"
@@ -450,9 +450,9 @@
                 <div
                     class="mt-6 bg-slate-50 rounded-xl border border-slate-200 p-4 text-xs text-slate-500 leading-relaxed">
                     <p class="mb-1"><span class="font-bold text-slate-700">راهنما:</span> روی باکس بالا کلیک کنید تا
-                        لیست کتاب‌ها باز شود. می‌توانید جستجو کنید، همه را انتخاب کنید یا هر محصولرا به صورت جداگانه تیک
+                        لیست لوازم قنادی‌ها باز شود. می‌توانید جستجو کنید، همه را انتخاب کنید یا هر محصولرا به صورت جداگانه تیک
                         بزنید.</p>
-                    <p>کتاب‌های انتخاب شده در باکس نمایش داده می‌شوند و با کلیک روی ضربدر هر کدام، بدون باز کردن لیست،
+                    <p>لوازم قنادی‌های انتخاب شده در باکس نمایش داده می‌شوند و با کلیک روی ضربدر هر کدام، بدون باز کردن لیست،
                         حذف می‌شوند.</p>
                 </div>
 
@@ -1321,7 +1321,7 @@
         }
 
         /* =========================================================
-           داده‌های کتاب‌ها
+           داده‌های لوازم قنادی‌ها
            ========================================================= */
         const booksData = {
             @foreach ($pack->products as $product)
@@ -1332,7 +1332,7 @@
             @endforeach
         };
 
-        // 👇 آرایه ID کتاب‌های انتخاب‌شده در این پک (از کنترلر پاس داده می‌شود)
+        // 👇 آرایه ID لوازم قنادی‌های انتخاب‌شده در این پک (از کنترلر پاس داده می‌شود)
         const preselectedIds = @json($selectedProductIds ?? []);
 
         const selectedCountSpan = document.getElementById('selectedCount');
@@ -1359,7 +1359,7 @@
             if (selectedItemsList) {
                 if (selected.length === 0) {
                     selectedItemsList.innerHTML =
-                        '<p class="text-slate-400 italic text-center py-4">هنوز کتابی انتخاب نشده است</p>';
+                        '<p class="text-slate-400 italic text-center py-4">هنوز لوازم قنادیی انتخاب نشده است</p>';
                 } else {
                     selectedItemsList.innerHTML = selected.map(item => `
                         <div class="flex justify-between items-center py-1.5 border-b border-slate-100 last:border-0" style="font-family: "IRANSansXFaNum">
